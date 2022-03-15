@@ -49,4 +49,13 @@ public class Main {
             newSet.addAll(s2);
             return newSet;
     }
+
+//    public static <T> Set<T> symmetricDifference(Set<T> s1, Set<T> s2) {
+//        Set<T> symmetricDiff = new HashSet<>(s1);
+//        symmetricDiff.addAll(s2);
+//        Set<T> tmp = new HashSet<>(s1);
+//        tmp.retainAll(s1);
+//        symmetricDiff.removeAll(tmp);
+//        return symmetricDiff;
+//    }
 }
